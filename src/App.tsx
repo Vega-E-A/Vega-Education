@@ -218,6 +218,17 @@ const HeroTile = () => (
         Accelerating<br/><span className="text-blue-500">Excellence</span>
       </h1>
       <p className="text-blue-400/80 text-[10px] uppercase tracking-[0.4em] mb-8 font-bold">One Prompt At A Time</p>
+      <div className="flex flex-wrap gap-2">
+        <button className="bg-white/10 hover:bg-white/20 border border-white/10 px-4 py-2 rounded-full text-[8px] font-bold uppercase tracking-widest transition-all text-white">
+          Experience
+        </button>
+        <button className="bg-white/10 hover:bg-white/20 border border-white/10 px-4 py-2 rounded-full text-[8px] font-bold uppercase tracking-widest transition-all text-white">
+          Ground Truth
+        </button>
+        <button className="bg-white/10 hover:bg-white/20 border border-white/10 px-4 py-2 rounded-full text-[8px] font-bold uppercase tracking-widest transition-all text-white">
+          Revolution
+        </button>
+      </div>
     </motion.div>
   </div>
 );
