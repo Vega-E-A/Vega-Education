@@ -82,7 +82,7 @@ const BriefingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
           >
             <div className="p-6 border-b border-white/10 flex justify-between items-center bg-blue-500/5">
               <div className="flex items-center gap-2">
-                <Rocket className="text-blue-500" size={18} />
+                <Rocket className="text-amber-400" size={18} />
                 <h3 className="text-sm font-black uppercase tracking-widest text-white">Mission Briefing Initialization</h3>
               </div>
               <button onClick={onClose} className="text-slate-400 hover:text-white transition">
@@ -207,7 +207,7 @@ const Nav = ({ onOpenBriefing }: { onOpenBriefing: () => void }) => (
 const HeroTile = () => (
   <div className="col-span-full xl:col-span-2 xl:row-span-2 bento-card flex flex-col justify-center relative overflow-hidden bg-gradient-to-br from-blue-900/20 to-indigo-900/10 border-blue-500/30">
     <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">
-      <Rocket size={200} />
+      <Rocket className="text-amber-400" size={200} />
     </div>
     <motion.div
       initial={{ opacity: 0, y: 20 }}
