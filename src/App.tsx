@@ -300,9 +300,9 @@ const RevolutionTile = () => (
 
 const Footer = () => (
   <footer className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[8px] text-slate-500 uppercase tracking-widest bg-white/5 p-6 rounded-2xl border border-white/10">
-    <div className="font-bold">© 2025 Michael A. Breslow | Vega Educational Associates</div>
+    <div className="font-bold">© 2026 Michael A. Breslow | Vega Educational Associates</div>
     <div className="max-w-md md:text-right opacity-60 leading-relaxed text-center md:text-left">
-      Synthetic Intelligence Disclosure: Architected through Human-in-the-Loop (HITL) Framework 2025 leveraging LLMs for instruction.
+      Synthetic Intelligence Disclosure: Architected through Human-in-the-Loop (HITL) Framework 2026 leveraging LLMs for instruction.
     </div>
   </footer>
 );
